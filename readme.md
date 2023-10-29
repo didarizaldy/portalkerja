@@ -1,57 +1,69 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="/doc/logo-duta-bangsa.png"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Abstrak
 
-## About Laravel
+Penelitian yang dilakukan oleh penulis bertujuan untuk dapat membangun sebuah informasi mengenai portal kerja agar informasi mengenai pekerjaan dapat diakses secara umum khususnya untuk masyarakat dan juga para alumni dari Sekolah Tinggi Teknologi Duta Bangsa dalam memperoleh informasi lowongan pekerjaan yang efektif dan juga efisien.
+Dalam pengembangan sistem informasi portal kerja yang dilakukan oleh penulis menggunakan metode pengembangan use case diagram. Dibantu dengan hardware yaitu processor intel core i7, RAM 8 GB, penyimpanan SSD 500 GB. Adapun dibantu dengan software yaitu xampp, Database Management System (DBMS) MySQL, Visual Studio Code (VSCode) sebagai code editor untuk menulis program, serta menggunakan framework Laravel.
+Pengumpulan data yang digunakan oleh penulis dalam memperoleh informasi terkait terdiri dari observasi, wawancara, dan studi pustaka. Dalam penelitian yang dilakukan oleh penulis menghasilkan output informasi mengenai lowongan pekerjaan dan informasi pelamar yang terdaftar.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+Kata Kunci
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+```bash
+  - Informasi Portal Kerja, 
+  - Use Case Diagram, 
+  - MySQL, 
+  - Visual Studio Code, 
+  - Laravel
+```
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+## Speksifikasi Sistem
 
-## Learning Laravel
+Untuk dapat menggunakan aplikasi ini diharapkan user memastikan hal berikut sudah sesuai, diantara adalah :
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+- Php Versi 7.0.xx
+- Laravel 5.5.xx
+- Composer 2.0.xx
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+## Package Laravel
 
-## Laravel Sponsors
+Adapun saya menggunakan beberapa package sebagai penunjang kebutuhan, diharapkan dengan menggunakan package ini mampu mempersingkat waktu develop dan sistem yang dibangun dapat lebih bisa dimaintenance kedepannya. Package tersebut diantaraya :
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+- UUID By Ramsey
+- Spatie Role Permission
+- Yajra Datatable V. 8.13
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
+## Tata Cara Penggunaan
 
-## Contributing
+Apabila semua package dan spesifikasi standar sudah sesuai program dapat dijalankan dengan tata cara sebagai berikut :
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Pertama clone repository ini dengan cara :
 
-## Security Vulnerabilities
+```bash
+  gh repo clone didarizaldy/portalkerja
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Kedua lakukan instalasi package terdaftar dengan cara :
+
+```bash
+composer install
+```
+
+- Ketiga lakukan database migration dan seed (Opsional apabila diperlukan bisa menggunkaan faker untuk data testing, hal ini tidak dianjurkan hanya langkah opsional)
+
+**Pastikan menggunakan salah satu, jangan keduanya !!**
+
+```bash
+php artisan migrate:refresh
+```
+
+atau jika ingin melakukan seeding databse bisa dengan cara sebagai berikut :
+
+```bash
+php artisan migrate:refresh --seed
+```
+
+## Screenshot Sistem 
+Berikut screenshot sistem.
 
 ## License
 
