@@ -65,6 +65,22 @@ php artisan migrate:refresh --seed
 ## Screenshot Sistem 
 Berikut screenshot sistem.
 
+- Login Form
+User dapat melakukan akses masuk ke dalam sistem dengan menggunakan NPM beserta password yang sesuai
+<img src="/doc/1 - Login Form.png">
+
+- Dashboard Awal
+Dashboard awal merupakan home page, halaman ini dapat diakses dengan atau tanpa login terlebih dahulu yang mana beriisikan mengenai informasi portal kerja
+<img src="/doc/2 - Dashboard Awal.png">
+
+- Dashboard Lanjutan
+Berikut merupakan lanjutan dari home yaitu pada bagian tengah halaman tersebut.
+<img src="/doc/3 - Dashboard Tengah.png">
+
+- Profile STTDB
+Halaman berikut berisikan informasi mengenai Sekolah Tinggi Teknologi Duta Bangsa
+<img src="/doc/4 - Profile STTDB.png">
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
