@@ -81,6 +81,75 @@ Berikut merupakan lanjutan dari home yaitu pada bagian tengah halaman tersebut.
 Halaman berikut berisikan informasi mengenai Sekolah Tinggi Teknologi Duta Bangsa
 <img src="/doc/4 - Profile STTDB.png">
 
-## License
+- Lokasi Kampus STTDB
+Halaman berikut berisikan informasi mengenai lokasi dari kampus Sekolah Tinggi Duta Bangsa
+<img src="/doc/5 - Lokasi Kampus STTDB.png">
 
+- Menu Utama
+Halaman berikut merupakan menu utama yang berisikan informasi mengenai lowongan kerja, terlampir juga beberapa rincian informasi terkait dari informasi kerja yang ditampilkan
+<img src="/doc/6 - Menu Utama.png">
+
+- Menu Sidebar
+Sidebar menu berbeda-beda sesuai dengan akses, role, dan user
+<img src="/doc/7 - File Menu.png">
+
+- Halaman Kategori
+Halaman kategori sama seperti halaman utama tetapi memiliki informasi yang ditampilkan terperinci berdasarkan kategori
+<img src="/doc/8 - Halaman Kategori.png">
+
+- Detail Lowongan Pekerjaan
+Berisikan informasi detail mengenai pekerjaan terlampir secara terperinci
+<img src="/doc/9 - Detail Lowongan Pekerjaan.png">
+
+- Fitur Untuk Daftar Pekerjaan
+User dapat submit apabila telah login dengan menggunakan akun terdaftar
+<img src="/doc/10 - Mendaftar Lowongan Pekerjaan.png">
+
+- Fitur Untuk Membatalkan Submit Pekerjaan
+User dapat membatalkan submit pekerjaan apabila telah terdaftar dengan menggunakan akun terdaftar
+<img src="/doc/11 - Membatalkan Pendaftaran.png">
+
+- Laporan Pelamar Kerja
+Admin web dapat melihat laporan daftar para pelamar kerja
+<img src="/doc/12 - Laporan Pelamar Kerja.png">
+
+- Laporan Mengelola Daftar Perusahaan
+Admin web dapat mengelola daftar perusahaan penyedia
+<img src="/doc/13 - Laporan Daftar Perusahaan.png">
+
+- Laporan Mengelola Daftar
+Admin web dapat mengelola daftar lowongan pekerjaan
+<img src="/doc/14 - Laporan Mengelola Daftar Lowongan Kerja.png">
+
+- Pengelolaan Postingan Lowongan Kerja
+Admin web mengelola postingan mengenai lowongan kerja pada halaman berikut
+<img src="/doc/15 - Postingan Lowongan Pekerjaan.png">
+
+- Laporan Daftar Pengelolaan Lowongan Kerja
+Admin web dapat melihat daftar pengelolaan mengenai lowongan kerja yang sudah terdaftar untuk diposting
+<img src="/doc/16 - Laporan Daftar Pengelola Perusahaan.png">
+
+- Input Data Perusahaan
+Admin web dapat menambahkan data perusahaan terdaftar yang akan membuat lowongan kerja pada website ini
+<img src="/doc/17 - Tambah Data Perusahaan.png">
+
+- Pengelolaan User Akses
+Admin web mengelola user akses pada halaman berikut
+<img src="/doc/18 - Mengelola User Akses Sistem.png">
+
+- Daftar User Akses
+Halaman yang melampirkan daftar uses akses yang terdaftar pada website
+<img src="/doc/19 - Daftar User Akses Sistem.png">
+
+- Fitur Export Data Pelamar Kerja
+Admin website dapat export daftar para pelamar kerja dengan menekan tombol download
+<img src="/doc/20 - Export Data Pelamar Kerja.png">
+
+- Fitur Export Data Perusahaan
+Admin website dapat export daftar perusahaan terdaftar pada sistem
+<img src="/doc/21 - Export Data Perusahaan.png">
+
+## License
+Seluruh lisensi ini bersifat open source yang mana dapat digunakan kembali tanpa harus izin melalui saya selaku pembuat sistem.
+Silakan dikembangkan.
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
