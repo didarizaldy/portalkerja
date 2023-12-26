@@ -4,13 +4,11 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Spatie\Permission\Traits\HasRoles;
-use App\Traits\Uuid;
+use App\Post;
 
 class User extends Authenticatable
 {
-    use Notifiable, HasRoles, Uuid;
-    public $incrementing = false;
+    use Notifiable;
 
     /**
      * The attributes that are mass assignable.
@@ -18,7 +16,15 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name',
+        'npm',
+        'faculty',
+        'roles',
+        'password',
+        'api_token',
+        'remember_token',
+        'created_at',
+        'updated_at',
     ];
 
     /**
@@ -27,6 +33,18 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'api_token',
+        'password',
+        'remember_token'
     ];
+
+    public function author()
+    {
+        return $this->hasMany('App\Post', 'author');
+    }
+
+    public function editby()
+    {
+        return $this->hasMany('App\Post', 'editby');
+    }
 }
